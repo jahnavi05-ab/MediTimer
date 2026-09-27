@@ -1,24 +1,26 @@
-# 💊 MediTimer – Smart Medicine Reminder Application
+# 💊 MediTimer – Smart Medicine Reminder App
 
-MediTimer is a Python-based desktop medicine reminder application designed to help users manage their medication schedules efficiently.
+MediTimer is a Python-based desktop medicine reminder application built with Tkinter. It helps users manage medicine schedules and receive timely reminders.
 
-The application allows users to create medicine reminders by entering the medicine name, dosage, reminder time, user type, and duration. It provides timely notifications and includes voice assistance for elderly users.
+The application supports user login and signup, medicine reminder management, desktop notifications, and spoken reminders for elderly users.
 
 ---
 
 ## 🚀 Features
 
-- 👤 User-based medicine reminder management
+- 👤 User signup and login
+- 🔐 Password hashing using SHA-256
 - 💊 Add medicine name and dosage
-- ⏰ Schedule medicine reminders using `HH:MM` format
+- ⏰ Schedule medicine reminders using 24-hour time format
 - 🔔 Desktop notifications for scheduled medicines
-- 🗣️ Voice assistance for elderly users
-- 👴 Separate support for Elder and Normal user types
-- 📅 Medicine duration management
-- 💾 JSON-based local data storage
-- 🖥️ User-friendly desktop graphical interface
-- ⏱️ Automatic reminder scheduling
-- 🎨 Clean and simple GUI
+- 🗣️ Spoken reminders for elderly users
+- 👵 Elder profile with spoken and visual reminders
+- 🙂 Normal profile with visual reminders
+- 📋 View scheduled medicine reminders
+- 🗑️ Delete scheduled reminders
+- 💾 Local JSON-based data storage
+- 🖥️ Modern desktop graphical user interface
+- 🔄 Automatic daily reminder scheduling
 
 ---
 
@@ -28,14 +30,16 @@ The application allows users to create medicine reminders by entering the medici
 |---|---|
 | **Python** | Core programming language |
 | **Tkinter / ttk** | Desktop graphical user interface |
-| **ttkbootstrap** | Modern GUI styling |
+| **ttkbootstrap** | GUI styling and customization |
 | **JSON** | Local data storage |
-| **pyttsx3** | Text-to-speech / voice assistance |
+| **pyttsx3** | Text-to-speech / voice reminders |
 | **Plyer** | Desktop notifications |
+| **Schedule** | Daily reminder scheduling |
+| **hashlib** | Password hashing |
 
 ---
 
-## 🏗️ Project Structure
+## 📂 Project Structure
 
 ```text
 MediTimer/
